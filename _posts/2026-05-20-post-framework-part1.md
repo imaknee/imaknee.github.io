@@ -11,7 +11,9 @@ tags:
 ---
 *To kick off this site, over a series of posts I am going to explain narratively the rationale behind the development of my proposed [neuromorphic computing framework]( https://arxiv.org/abs/2507.17886) and the implications of it. I encourage you to read the framework itself for the technical details and results.  This series will work to build towards a more conversational understanding of neuromorphic computing and how that relates to neuroscience, AI, and computer science in general.*
 
-##Part 1: What is neuromorphic computing, and why should you care?
+# Part 1: What is neuromorphic computing, and why should you care?
+
+## The 'What', 'How', 'Who' and 'When' of neuromorphic 
 
 The single biggest weakness of the neuromorphic computing field is that no one outside the field really knows what it is, and most everyone inside the field has their own opinions of what it is, generally centered on what it is they work on.  
 
@@ -31,11 +33,11 @@ All of this is to say that the signal in the neuromorphic field is currently too
 Voltaire famously stated that the Holy Roman Empire was neither Holy nor Roman nor an Empire.  Well, you could easily argue that the neuromorphic computing field is neither “neuromorphic”, nor “computing”, nor “a field”.  
 So given that neuromorphic computing flounders on the ‘what’, ‘how’, ‘who,’ and ‘when’ questions, is there a point?  Yes.  And it is because the ‘Why’ is so strong.
 
-##Why we need neuromorphic computing
+## Why we need neuromorphic computing
 
 The ‘Why’ for neuromorphic computing is everything.  While not universally appreciated, the reasons are deep and fundamental.  But before we get there, it is worth discussing why neuromorphic is different than the types of computing we have today.
 
-###What is computing today.
+### What is computing today.
 
 Arguably, neural computation is the only type of computation that occurs naturally. Lots of biology focuses on cells that exist to manipulate the organisms and the world around them.  Neurons exist specifically to manipulate information*.  This manipulation can be in the form of moving information from one location to another (communication), converting information from one modality to another (sensory-motor processing), or relating information to other information (memory, decision making, etc); but, in no uncertain terms, neurons perform computation.  
 *Yes, nervous systems exist to manipulate the world along with muscles.  But they do this through neurons computing.*
@@ -52,6 +54,8 @@ Both of these approaches to computation are fully artificial, having been engine
 
 Other approaches to computing have been developed as well; WW2 and the years thereafter saw a bunch of computers developed for encryption and decryption, but while effective, these approaches did not readily translate to general-purpose use. The computers designed for physics could map to generic mathematical manipulations better than the other way around.  Similarly, there were many suggested approaches for quantum computing, but the general-purpose quantum circuit variety ‘won’ because it allowed the tools of computer science to be mapped to the framework.
 
+## So why should we care??
+
 Which brings us back to the ‘Why’ of neuromorphic computing and how to fix the field.  
 
 In my opinion, there are two reasons to build a brain-like computing system artificially.  There is the Feynman quantum argument: by building a neuromorphic system in hardware we can gain a stronger foothold for understanding the brain.  It was only at NICE 2024, when Carver Mead won the Misha Mahowald Lifetime Achievement award, that I fully realized this is the original Mead vision for neuromorphic hardware.  
@@ -63,12 +67,12 @@ The ‘why neuromorphic for neuroscience’ argument is more subtle than the Fey
 Evolution is tricky but suppose for a second that we can state that a neural circuit, N, in the brain exists in its form from an evolutionary genetic optimization to maximize the efficiency on some function, y=f_N(x).  The catch is we do not know what f_N(x) is.  This is clearly a simplification; as the brain has evolved through a multi-objective evolutionary optimization; but in general, this is probably a fair statement. 
 Systems neuroscience, coarsely stated, can be described as trying to find f_N(x) through sampling many x’s and y’s and trying to find the f_N* that best fits the observed (x*,y*).  Until recent years, this leveraged fairly little knowledge about N itself (the neuroanatomy), but that is changing now with the connectome.
 
-Systems neuroscience:
+### Systems neuroscience
 $$\min_{f} \sum \| y^* - f(x^*) \| \quad \text{subject to constraints of } N$$
 The problem with the is that there are an infinite number of (f(x)) models that could fit that function, but most of them are not consistent with N.  The consistency with N is critical for why we are studying the brain in the first place: how do we get efficient computation, how to fix the brain, etc.   
 Neuromorphic computing flips this around – it is the perfect complement.  Rather than being data driven (find a function that fits this data); neuromorphic algorithm development effectively is seeking which functions have minimal ‘cost’ on N.    
 
-Neuromorphic algorithms:
+### Neuromorphic algorithms
 $$\min_{f} \text{Cost}(N) \quad \text{subject to } f(x) \text{ yielding a valid/useful computation}$$
 
 These two approaches are wonderfully complementary, combining the computation with the biology.   By merging these two perspectives; we can move away from static descriptions of the brain to something more functional; the equivalent of moving from the ‘genome’ to the ‘transcriptome’ and ‘proteome’ in cellular biology.
