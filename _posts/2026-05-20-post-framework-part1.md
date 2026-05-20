@@ -68,14 +68,17 @@ Evolution is tricky but suppose for a second that we can state that a neural cir
 Systems neuroscience, coarsely stated, can be described as trying to find f_N(x) through sampling many x’s and y’s and trying to find the f_N* that best fits the observed (x*,y*).  Until recent years, this leveraged fairly little knowledge about N itself (the neuroanatomy), but that is changing now with the connectome.
 
 ### Systems neuroscience
+
 $$\min_{f} \sum \| y^* - f(x^*) \| \quad \text{subject to constraints of } N$$
+
 The problem with the is that there are an infinite number of (f(x)) models that could fit that function, but most of them are not consistent with N.  The consistency with N is critical for why we are studying the brain in the first place: how do we get efficient computation, how to fix the brain, etc.   
 Neuromorphic computing flips this around – it is the perfect complement.  Rather than being data driven (find a function that fits this data); neuromorphic algorithm development effectively is seeking which functions have minimal ‘cost’ on N.    
 
 ### Neuromorphic algorithms
-$$\min_{f} \text{Cost}(N) \quad \text{subject to } f(x) \text{ yielding a valid/useful computation}$$
 
-These two approaches are wonderfully complementary, combining the computation with the biology.   By merging these two perspectives; we can move away from static descriptions of the brain to something more functional; the equivalent of moving from the ‘genome’ to the ‘transcriptome’ and ‘proteome’ in cellular biology.
+$$\min_{f \in \mathcal{F}} \text{Cost}(f_N(x)) \quad \text{subject to } f_N(x) \text{ yielding a behaviorally useful computation}$$
+
+These two approaches are wonderfully complementary, combining the computation with the biology. By merging these two perspectives; we can move away from static descriptions of the brain to something more functional; the equivalent of moving from the ‘genome’ to the ‘transcriptome’ and ‘proteome’ in cellular biology.
 
 In my opinion, identifying the brain’s ‘computome’ is a pretty compelling ‘why’ (and in the future I will talk about this a lot more), but reasonable people can debate how to prioritize neuroscience research.  Besides, the urgency here is on years timescales; we’re all still young, right?
 
@@ -90,4 +93,4 @@ That individual was wrong (chemical engineering has been revolutionized in the l
 This of course is a longer story as well.  But it is urgent in a different way.  Every day that goes by we are energy --- which has a direct monetary and climate and social value --- on unnecessary FLOPS that could be effectively free. Brains are not just a fraction of a percentage point more efficient, they’re orders of magnitude more efficient at the tasks we are training AI for today.  
 So what is needed to sharpen focus on neuromorphic computing?  
 
-Next time… 
+Until next time… 
