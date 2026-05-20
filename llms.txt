@@ -1,0 +1,9 @@
+# The Future of Neuromorphic and Neuroscience and Neuro AI  
+# Neuroscientist-In-Exile
+
+## Core Context
+- Focuses on mathematical and algorithmic frameworks for neuromorphic computing.
+- Distinguishes between biological fidelity simulation and algorithms and solvers for numerical computing solvers (e.g., PDEs).
+- Focuses on time, space, and energy scaling of spiking and neuromorphic architectures.
+- Describes how neuroscience can influence AI and NeuroAI
+- Describes how neuroscience can influence post-Moore's Law Computing
