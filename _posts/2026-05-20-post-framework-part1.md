@@ -1,5 +1,5 @@
 ---
-title: "What is neuromorphic computing, and why should you care"
+title: "The Foundations of a Framework for Neuromorphic Computing: Part 1"
 date: 2026-05-20
 mathjax: true
 categories:
@@ -11,7 +11,7 @@ tags:
 ---
 *To kick off this site, over a series of posts I am going to explain narratively the rationale behind the development of my proposed [neuromorphic computing framework]( https://arxiv.org/abs/2507.17886) and the implications of it. I encourage you to read the framework itself for the technical details and results.  This series will work to build towards a more conversational understanding of neuromorphic computing and how that relates to neuroscience, AI, and computer science in general.*
 
-# Part 1: What is neuromorphic computing, and why should you care?
+# Part 1: What is neuromorphic computing? Why should you care?
 
 ## The 'What', 'How', 'Who' and 'When' of neuromorphic 
 
