@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   #Write an awesome description for your new site here. You can edit this
   #line in _config.yml. It will appear in your document head meta (for
   #Google search results) and in your feed.xml site description.
-  I am a computational neuroscientist who has moved into neuromorphic computing, looking for a new way to understand the brain. The time has come to return.   
+  I am a computational neuroscientist who went into exile amongst computer scientists, mathematicians, and engineers in the strange land of neuromorphic computing in search new and useful ways to understand the brain. The time has come to return and bring these worlds together.   
 twitter_username: JBImaknee
 github_username: username
 minimal_mistakes_skin: default
@@ -68,7 +68,7 @@ author:
       url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://x.com/jbimaknee"
 #    - label: "GitHub"
 #      icon: "fab fa-fw fa-github"
 #      url: "https://github.com/"
@@ -77,22 +77,22 @@ author:
 #      url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/brad-aimone-248661/"
     - label: "BlueSky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/"
+      url: "https://bsky.app/profile/jbimaknee.bsky.social"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://x.com/jbimaknee"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/brad-aimone-248661/"
     - label: "BlueSky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/"
+      url: "https://bsky.app/profile/jbimaknee.bsky.social"
 
 defaults:
   # _posts
