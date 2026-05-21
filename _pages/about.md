@@ -1,6 +1,9 @@
 ---
 permalink: /about/
-title: "About"
+title: "About this site"
+header:
+  overlay_image: /assets/images/Header_Neurons_1.png
+  overlay_filter: 0.5
 ---
 
 People are fascinated by the brain and the world is in a frenzy about artificial intelligence. And in the background, there are rumors of a better and cheaper way to do AI that is more inspired by the brain than today's methods, but this neuromorphic computing remains a mystery to most people. This site is about the intersection of these three fields, how they are coming together nicely, and what we are learning about how they do not fit. I'm not an AI fanboy, 
