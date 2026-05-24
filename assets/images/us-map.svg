@@ -8,7 +8,7 @@
 	 overflow="visible" enable-background="new 0 0 600 400" xml:space="preserve">
 <g id="states">
 	<rect id="background" fill="none" width="600" height="400"/>
-	<polygon id="wy" fill="#FFFFFF" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" stroke-miterlimit="1" points="
+	<path id="wy" fill="#FFFFFF" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" stroke-miterlimit="1" points="
 		225.916,91.08 223.955,119.249 222.046,147.555 205.548,146.253 196.43,145.386 179.324,143.563 169.251,142.346 148.238,139.482 
 		150.322,125.415 155.446,90.421 156.5,83.458 175.416,86.081 193.044,88.164 212.582,90.075 225.922,91.081 	"/>
 	<path id="wv" fill="#FFFFFF" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" stroke-miterlimit="1" d="
