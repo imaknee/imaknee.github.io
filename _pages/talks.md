@@ -19,7 +19,7 @@ author_profile: true
 
     <!-- Custom Floating Box to Capture Ontario Presentations -->
     <div id="CA-ON" class="canada-node" style="position: absolute; top: 15px; right: 15px; background: #2c3e50; color: #fff; padding: 6px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; cursor: pointer; transition: background 0.2s;" data-name="Ontario" data-talk="University of Waterloo (Scheduled Technical Briefing: June 2026)">
-      🇨🇦 Ontario Registry Active
+      🇨🇦 Ontario
     </div>
   </div>
 
@@ -29,7 +29,7 @@ author_profile: true
       <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: #586069; margin-bottom: 8px; font-weight: 600;">Seminar Logs</div>
       <h3 id="region-title" style="margin: 0 0 12px 0; font-size: 22px; font-weight: 600; color: #0366d6; line-height: 1.2;">Hover Over an Active State</h3>
       <p id="talk-details" style="font-size: 14px; line-height: 1.5; color: #444d56; margin: 0; font-style: italic;">
-        Hover your cursor over any highlighted state or the Ontario badge to pull up the corresponding research lectures and institutional briefs.
+        Hover your cursor over any highlighted state to pull up the most recent research lecture
       </p>
     </div>
     
@@ -44,28 +44,29 @@ author_profile: true
 <script>
   // Your exact distribution list of active states mapped to clean text fields
   const seminarData = {
-    "WA": "Presentation details pending.",
-    "OR": "Presentation details pending.",
-    "CA": "Presentation details pending.",
-    "CO": "Presentation details pending.",
-    "NM": "Sandia National Laboratories / Neural Exploration & Research Lab (Algorithmic Hardware Solvers)",
-    "TX": "University of Texas at Austin (Graph Theoretical Boundary Mapping)",
-    "IL": "Presentation details pending.",
-    "IN": "Presentation details pending.",
-    "VA": "Presentation details pending.",
-    "MD": "Presentation details pending.",
-    "GA": "Presentation details pending.",
-    "TN": "Presentation details pending.",
-    "NY": "Presentation details pending.",
-    "MA": "Presentation details pending.",
-    "RI": "Presentation details pending."
+    "WA": "2025 ModSim Workshop.",
+    "OR": "2018 NICE Conference.",
+    "CA": "2025 Gage Lab Symposium.",
+    "CO": "2024 Supercomputing Post Moore's Law Workshop.",
+    "NM": "2026 Energy Consequences of Information Workshop",
+    "TX": "2024 Texas A&M TEES Talk",
+    "IL": "2024 IEEE BRAIN Symposium.",
+    "IN": "2026 Purdue PN3 Symposium.",
+    "VA": "2011 Virginia Tech.",
+    "MD": "2024 NIH Wednesday Afternoon Lecture Series.",
+    "GA": "2026 NICE Conference.",
+    "TN": "2022 ICONS Conference.",
+    "NY": "2019 NICE Conference.",
+    "MA": "2014 Boston University.",
+    "RI": "2023 Brown University.",
+    "UT": "2019 Snowbird Symposium."
   };
 
   const nameMap = {
     "WA": "Washington", "OR": "Oregon", "CA": "California", "CO": "Colorado",
     "NM": "New Mexico", "TX": "Texas", "IL": "Illinois", "IN": "Indiana",
     "VA": "Virginia", "MD": "Maryland", "GA": "Georgia", "TN": "Tennessee",
-    "NY": "New York", "MA": "Massachusetts", "RI": "Rhode Island"
+    "NY": "New York", "MA": "Massachusetts", "RI": "Rhode Island", "UT": "Utah"
   };
 
   const mapObject = document.getElementById('us-vector-map');
