@@ -7,7 +7,7 @@ author_profile: true
 
 
 
-<p>Operational map of university seminars, conference presentations, and national laboratory technical briefings across the United States and Canada.</p>
+<p>Map of most recent university seminars and conference presentations across the United States and Canada.</p>
 
 <!-- Interactive Map Container -->
 <div class="map-dashboard" style="display: flex; gap: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #ffffff; padding: 25px; border-radius: 12px; border: 1px solid #e1e4e6; color: #24292e; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
