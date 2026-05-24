@@ -81,6 +81,8 @@ author_profile: true
     const styleElement = svgDoc.createElementNS("http://www.w3.org/2000/svg", "style");
     styleElement.textContent = "path { transition: fill 0.2s ease-in-out !important; cursor: pointer !important; fill: #e1e4e6 !important; }";
     svgDoc.documentElement.appendChild(styleElement);
+    styleElement.textContent = "polygon { transition: fill 0.2s ease-in-out !important; cursor: pointer !important; fill: #e1e4e6 !important; }";
+    svgDoc.documentElement.appendChild(styleElement);
 
     // Target your exact 15 states using the official Wikipedia ID schemas
     Object.keys(seminarData).forEach(stateCode => {
