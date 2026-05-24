@@ -46,22 +46,22 @@ author_profile: true
 <script>
   // Your exact distribution list of active states mapped to clean text fields
   const seminarData = {
-    "WA": "2025 ModSim Workshop.",
-    "OR": "2018 NICE Conference.",
-    "CA": "2025 Gage Lab Symposium.",
-    "CO": "2024 Supercomputing Post Moore's Law Workshop.",
-    "NM": "2026 Energy Consequences of Information Workshop",
-    "TX": "2024 Texas A&M TEES Talk<br>2023 University of Texas San Antonio<br>2023 University of Texas Austin",
-    "IL": "2024 IEEE BRAIN Symposium<br>2014 University of Illinois Urbana Champaign",
+    "WA": "2025 ModSim Workshop<br>'Is Neuromorphic Computing Ready for Prime Time'<br><a href='https://www.bnl.gov/modsim/events/#2025' style='color: #0366d6; text-decoration: underline;'>View Event Page</a>",
+    "OR": "2018 NICE Conference<br>'Is Neuromorphic Algorithms for Scientific Computing'<br><a href='https://vimeo.com/260690260' style='color: #0366d6; text-decoration: underline;'>View Presentation</a>",
+    "CA": "2025 Gage Lab Symposium<br>2025 IEEE NER<br>2019 UC Irvine CNLM Colloquium<br>2014 UC Irvine Neurobiology of Learning and Memory",
+    "CO": "2023 Workshop on Scalable Algorithms for Large-Scale Heterogeneous Systems<br>'Pursuit of the Brain's Ubiquitous Stochasticity'",
+    "NM": "2026 Energy Consequences of Information Workshop<br>2018 University of New Mexico Applied Math Seminar<br>",
+    "TX": "2023 Texas A&M TEES Talk<br>'Full Stack Neuromorphic'<br>2019 University of Texas San Antonio AI Summit<br>2019 University of Texas Austin Bio-Inspired Computing Colloquium",
+    "IL": "2024 IEEE BRAIN Discovery and Neurotechnology Workshop<br>2014 University of Illinois Urbana Champaign",
     "IN": "2026 Purdue PN3 Symposium<br>'The Dawn of Neuromorphic Algorithms'<br><a href='https://engineering.purdue.edu/PN3' style='color: #0366d6; text-decoration: underline;'>View Event Page</a>",
-    "VA": "2011 Virginia Tech.",
-    "MD": "2024 NIH Wednesday Afternoon Lecture Series.",
-    "GA": "2026 NICE Conference.",
-    "TN": "2022 ICONS Conference.",
-    "NY": "2019 NICE Conference.",
-    "MA": "2014 Boston University.",
-    "RI": "2023 Brown University.",
-    "UT": "2019 Snowbird Symposium."
+    "VA": "2012 Virginia Tech Carilion Research Institute",
+    "MD": "2024 NIH Wednesday Afternoon Lecture Series<br>'How Neuromorphic Computing Can Help Us Understand the Brain'<br><a href='https://oir.nih.gov/wals/2024-2025-wals-season/how-neuromorphic-computing-can-help-understand-brain' style='color: #0366d6; text-decoration: underline;'>View Presentation</a>",
+    "GA": "2025 Georgia Tech CRNCH Summit<br>'A Probabilistic Future for Neuromorphic Computing'",
+    "TN": "2022 ICONS Conference",
+    "NY": "2019 NICE Conference<br>'Mosaics'",
+    "MA": "2012 Boston University Biomedical Engineering Seminar Series<br>'Adult Hippocampal Neurogenesis: Memory Resoultion, Pattern Separation, or Both?",
+    "RI": "2023 Mathematics of Scientific Machine Learning<br>'A Probabilistic Future for Neuromorphic Computing'",
+    "UT": "2018 University of Utah Snowbird Symposium."
   };
 
   const nameMap = {
