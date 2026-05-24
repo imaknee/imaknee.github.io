@@ -8,53 +8,79 @@ author_profile: true
 <p>Operational map of university seminars, conference presentations, and national laboratory technical briefings across the United States and Canada.</p>
 
 <!-- Interactive Map Container -->
-<div class="map-dashboard" style="display: flex; gap: 20px; font-family: sans-serif; background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0; color: #333;">
+<div class="map-dashboard" style="display: flex; gap: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #ffffff; padding: 25px; border-radius: 12px; border: 1px solid #e1e4e6; color: #24292e; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
   
-  <!-- Left Side: Clean Inline SVG Map (Targeted Regions Highlighted) -->
-  <div style="flex: 1.5; min-width: 300px;">
-    <svg id="north-america-map" viewBox="0 0 1000 600" style="width: 100%; height: auto; background: #eef5f9; border-radius: 6px;">
+  <!-- Left Side: Scaled SVG Map with Recognizable Geographic Features -->
+  <div style="flex: 1.6; min-width: 450px;">
+    <svg id="north-america-map" viewBox="0 0 1000 650" style="width: 100%; height: auto; background: #f6f8fa; border-radius: 8px; border: 1px solid #eaecef;">
       <style>
-        .state { fill: #d1dbe0; stroke: #fff; stroke-width: 1.5; cursor: pointer; transition: fill 0.2s ease; }
-        .state:hover { fill: #7faec5 !important; }
-        .active-state { fill: #347a9f; }
+        .state { fill: #e1e4e6; stroke: #ffffff; stroke-width: 1.2; cursor: pointer; transition: all 0.2s ease-in-out; }
+        .state:hover { fill: #6cb6db !important; filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.15)); }
+        .active-state { fill: #226083; }
+        .border-line { fill: none; stroke: #ffffff; stroke-width: 1.5; }
       </style>
 
-      <!-- Canada Subsections -->
-      <path id="CA-ON" class="state active-state" d="M350,220 L450,220 L430,280 L320,260 Z" data-name="Ontario" data-talk="University of Waterloo (Upcoming June 2026)" />
+      <!-- CANADA: Ontario (Curved baseline wrapping the Great Lakes) -->
+      <path id="CA-ON" class="state active-state" 
+            d="M560,180 L660,200 L680,240 L695,255 L685,275 L650,290 L610,295 L590,280 L580,250 L540,240 L530,210 Z" 
+            data-name="Ontario" data-talk="University of Waterloo (Scheduled Technical Briefing: June 2026)" />
       
-      <!-- US Subsections (Simplified Vector Shapes for Pristine Rendering) -->
-      <path id="US-NM" class="state active-state" d="M280,380 L360,380 L360,470 L280,460 Z" data-name="New Mexico" data-talk="Sandia National Laboratories (Computational Frameworks)" />
-      <path id="US-TX" class="state active-state" d="M360,470 L480,480 L440,580 L330,520 Z" data-name="Texas" data-talk="UT Austin (Complexity Boundaries Analysis)" />
+      <!-- USA: New Mexico (Distinct square with slight western offset and sharp borders) -->
+      <path id="US-NM" class="state active-state" 
+            d="M340,430 L410,430 L410,510 L335,505 Z" 
+            data-name="New Mexico" data-talk="Sandia National Laboratories / Neural Exploration & Research Lab (Algorithmic Hardware Solvers)" />
       
-      <!-- Placeholder Background Rest of North America Map Elements -->
-      <path id="US-REST" class="state" d="M100,200 L300,180 L320,380 L100,350 Z" data-name="Western Regions" data-talk="No recent presentations registered." />
-      <path id="US-EAST" class="state" d="M480,300 L650,280 L600,450 L480,430 Z" data-name="Eastern Seaboard" data-talk="No recent presentations registered." />
+      <!-- USA: Texas (Distinctive panhandle, western crook, Gulf Coast curve, and eastern boot) -->
+      <path id="US-TX" class="state active-state" 
+            d="M410,430 L450,432 L450,480 L520,485 L530,515 L510,545 L485,575 L455,595 L445,565 L415,530 L400,515 L410,510 Z" 
+            data-name="Texas" data-talk="University of Texas at Austin (Graph Theoretical Boundary Mapping)" />
+
+      <!-- BACKGROUND REFS: Quick structural baseline context paths for surrounding geography -->
+      <!-- Western/Pacific States Block -->
+      <path class="state" d="M120,250 L280,240 L340,290 L340,430 L335,505 L220,490 L130,420 Z" data-name="Pacific & West Region" data-talk="No active presentations registered." />
+      <!-- Plains/Midwest Block -->
+      <path class="state" d="M280,240 L530,210 L540,240 L500,380 L450,432 L410,430 L340,290 Z" data-name="Plains & Midwest Region" data-talk="No active presentations registered." />
+      <!-- South/East Coast Block -->
+      <path class="state" d="M500,380 L580,380 L690,320 L760,350 L720,480 L610,510 L530,515 L520,485 Z" data-name="Eastern & Southern Seaboard" data-talk="No active presentations registered." />
+      <!-- Rest of Canada North/West -->
+      <path class="state" d="M150,100 L560,180 L540,240 L280,240 L120,250 Z" data-name="Western Canada & Territories" data-talk="No active presentations registered." />
     </svg>
   </div>
 
-  <!-- Right Side: Sidebar Dynamic Tooltip & Registry List -->
-  <div style="flex: 1; background: #fff; padding: 15px; border-radius: 6px; border: 1px solid #dcdcdc; display: flex; flex-direction: column; justify-content: space-between;">
+  <!-- Right Side: Sidebar Dynamic Tooltip & Registry Panel -->
+  <div style="flex: 1; background: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e1e4e6; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
-      <h3 id="region-title" style="margin-top: 0; color: #111;">Hover Over a Highlighted Region</h3>
-      <p id="talk-details" style="font-style: italic; color: #666;">Move your cursor over an active state or province to pull up the most recent academic or institutional seminar brief.</p>
+      <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #586069; margin-bottom: 8px; font-weight: 600;">Interactive Registry</div>
+      <h3 id="region-title" style="margin: 0 0 12px 0; font-size: 20px; font-weight: 600; color: #0366d6;">Hover Over a Highlighted Region</h3>
+      <p id="talk-details" style="font-size: 14px; line-height: 1.5; color: #444d56; margin: 0; font-style: italic;">
+        Move your mouse cursor over an active state or province on the map to display the corresponding institutional seminar summary.
+      </p>
     </div>
     
-    <div style="border-top: 1px solid #eee; padding-top: 10px; margin-top: 10px; font-size: 13px; color: #555;">
-      <strong>Active Locations:</strong> Ontario (CA), New Mexico (US), Texas (US).
+    <div style="border-top: 1px solid #eaecef; padding-top: 15px; margin-top: 15px; font-size: 13px; color: #6a737d;">
+      <span style="display: inline-block; width: 10px; height: 10px; background-color: #226083; border-radius: 2px; margin-right: 6px;"></span>
+      <strong>Active Locations:</strong> Ontario, New Mexico, Texas.
     </div>
   </div>
 </div>
 
-<!-- Simple Vanilla Script for Hover Actions -->
+<!-- Simple Vanilla Script for Seamless State Swapping -->
 <script>
   document.querySelectorAll('.state').forEach(item => {
     item.addEventListener('mouseenter', function() {
-      document.getElementById('region-title').innerText = this.getAttribute('data-name');
-      document.getElementById('talk-details').innerText = this.getAttribute('data-talk');
+      const name = this.getAttribute('data-name');
+      const talk = this.getAttribute('data-talk');
+      
+      document.getElementById('region-title').innerText = name;
+      document.getElementById('talk-details').innerText = talk;
+      // Remove italic layout style when real text populates
+      document.getElementById('talk-details').style.fontStyle = (talk.includes("No active")) ? "italic" : "normal";
     });
+    
     item.addEventListener('mouseleave', function() {
       document.getElementById('region-title').innerText = "Hover Over a Highlighted Region";
-      document.getElementById('talk-details').innerText = "Move your cursor over an active state or province to pull up the most recent academic or institutional seminar brief.";
+      document.getElementById('talk-details').innerText = "Move your mouse cursor over an active state or province on the map to display the corresponding institutional seminar summary.";
+      document.getElementById('talk-details').style.fontStyle = "italic";
     });
   });
 </script>
