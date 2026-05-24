@@ -5,6 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
+
+
 <p>Operational map of university seminars, conference presentations, and national laboratory technical briefings across the United States and Canada.</p>
 
 <!-- Interactive Map Container -->
@@ -49,9 +51,9 @@ author_profile: true
     "CA": "2025 Gage Lab Symposium.",
     "CO": "2024 Supercomputing Post Moore's Law Workshop.",
     "NM": "2026 Energy Consequences of Information Workshop",
-    "TX": "2024 Texas A&M TEES Talk",
-    "IL": "2024 IEEE BRAIN Symposium.",
-    "IN": "2026 Purdue PN3 Symposium.",
+    "TX": "2024 Texas A&M TEES Talk<br>2023 University of Texas San Antonio<br>2023 University of Texas Austin",
+    "IL": "2024 IEEE BRAIN Symposium<br>2014 University of Illinois Urbana Champaign",
+    "IN": "2026 Purdue PN3 Symposium<br>'The Dawn of Neuromorphic Algorithms'<br><a href='https://engineering.purdue.edu/PN3' style='color: #0366d6; text-decoration: underline;'>View Event Page</a>",
     "VA": "2011 Virginia Tech.",
     "MD": "2024 NIH Wednesday Afternoon Lecture Series.",
     "GA": "2026 NICE Conference.",
@@ -113,13 +115,13 @@ author_profile: true
     this.style.background = "#2c3e50";
     resetSidebar();
   });
-
   function updateSidebar(title, description) {
     document.getElementById('region-title').innerText = title;
-    document.getElementById('talk-details').innerText = description;
+    // CHANGED: innerHTML allows the panel to parse links and line breaks perfectly
+    document.getElementById('talk-details').innerHTML = description; 
+    
     document.getElementById('talk-details').style.fontStyle = (description.includes("pending")) ? "italic" : "normal";
   }
-
   function resetSidebar() {
     document.getElementById('region-title').innerText = "Hover Over an Active State";
     document.getElementById('talk-details').innerText = "Hover your cursor over any highlighted state or the Ontario badge to pull up the corresponding research lectures and institutional briefs.";
