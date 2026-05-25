@@ -18,4 +18,4 @@ header:
 
 ## CV
 
-[Download my CV (May 2026) here]({% link assets/JBA_CV_May_2026.pdf %})
+[Download my CV (May 2026) here]({% link assets/docs/JBA_CV_May_2026.pdf %})
