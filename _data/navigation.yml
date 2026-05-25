@@ -9,3 +9,5 @@ main:
     url: /about/
   - title: "Seminars"
     url: /talks/
+  - title: "Links"
+    url: /links/
