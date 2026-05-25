@@ -130,3 +130,13 @@ author_profile: true
     document.getElementById('talk-details').style.fontStyle = "italic";
   }
 </script>
+
+## Select Online Seminars
+
+[2026 Purdue PN3 "Dawn of Neuromorphic Algorithms"](https://www.youtube.com/live/KkSbs-JsaPc?si=Sa4G6IRV0mwUb1r5&t=19494)
+
+[2025 IEEE NER "Is Neuromorphic Computing Ready to Deliver on its Promise to Advance Neuroscience"](https://youtu.be/ljsdScNvrKg?si=hPnZYYM0eSu6nwta&t=167)
+
+[2024 NIH Wednesday Afternoon Lecture Series "How Neuromorphic Computing Can Help Us Understand the Brain"](https://oir.nih.gov/wals/2024-2025-wals-season/how-neuromorphic-computing-can-help-understand-brain)
+
+[2023 Open Neuromorphic: Programming Scalable Neuromorphic Algorithms with Fugu](https://www.youtube.com/watch?v=UDM9Mbd0Vaw&t=8s)
