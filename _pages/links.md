@@ -5,10 +5,13 @@ header:
   overlay_image: /assets/images/Header_Neurons_1.png
   overlay_filter: 0.5
 ---
+## CV
+
+[Download my CV (May 2026) here]({% link assets/docs/JBA_CV_May_2026.pdf %})
 
 ## Interviews and Podcasts
 
-[Brains and Machines Podcast (Octboer 2025)](https://brainsandmachines.net/brad-aimone/) 
+[Brains and Machines Podcast (October 2025)](https://brainsandmachines.net/brad-aimone/) 
 
 [IEEE Brain (July 2023)](https://soundcloud.com/ieee-brain/episode-26-brad-aimone)
 
@@ -47,6 +50,4 @@ GNATs are a technique for decomposing spatio-temporal graphical causal relations
 
 STACS is a tool for natively multi-core large scale neural simulations.  [Link to paper.](https://iopscience.iop.org/article/10.1088/2634-4386/ad3be7/meta)
 
-## CV
 
-[Download my CV (May 2026) here]({% link assets/docs/JBA_CV_May_2026.pdf %})
