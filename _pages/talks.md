@@ -46,16 +46,16 @@ author_profile: true
 <script>
   // Your exact distribution list of active states mapped to clean text fields
   const seminarData = {
-    "WA": "2025 ModSim Workshop<br>'Is Neuromorphic Computing Ready for Prime Time'<br><a href='https://www.bnl.gov/modsim/events/#2025' style='color: #0366d6; text-decoration: underline;'>View Event Page</a>",
-    "OR": "2018 NICE Conference<br>'Is Neuromorphic Algorithms for Scientific Computing'<br><a href='https://vimeo.com/260690260' style='color: #0366d6; text-decoration: underline;'>View Presentation</a>",
+    "WA": "2025 ModSim Workshop<br>'Is Neuromorphic Computing Ready for Prime Time'",
+    "OR": "2018 NICE Conference<br>'Is Neuromorphic Algorithms for Scientific Computing'",
     "CA": "2025 Gage Lab Symposium<br>2025 IEEE NER<br>2019 UC Irvine CNLM Colloquium<br>2014 UC Irvine Neurobiology of Learning and Memory",
     "CO": "2023 Workshop on Scalable Algorithms for Large-Scale Heterogeneous Systems<br>'Pursuit of the Brain's Ubiquitous Stochasticity'",
     "NM": "2026 Energy Consequences of Information Workshop<br>2018 University of New Mexico Applied Math Seminar<br>",
     "TX": "2023 Texas A&M TEES Talk<br>'Full Stack Neuromorphic'<br>2019 University of Texas San Antonio AI Summit<br>2019 University of Texas Austin Bio-Inspired Computing Colloquium",
     "IL": "2024 IEEE BRAIN Discovery and Neurotechnology Workshop<br>2014 University of Illinois Urbana Champaign",
-    "IN": "2026 Purdue PN3 Symposium<br>'The Dawn of Neuromorphic Algorithms'<br><a href='https://engineering.purdue.edu/PN3' style='color: #0366d6; text-decoration: underline;'>View Event Page</a>",
+    "IN": "2026 Purdue PN3 Symposium<br>'The Dawn of Neuromorphic Algorithms'",
     "VA": "2012 Virginia Tech Carilion Research Institute",
-    "MD": "2024 NIH Wednesday Afternoon Lecture Series<br>'How Neuromorphic Computing Can Help Us Understand the Brain'<br><a href='https://oir.nih.gov/wals/2024-2025-wals-season/how-neuromorphic-computing-can-help-understand-brain' style='color: #0366d6; text-decoration: underline;'>View Presentation</a>",
+    "MD": "2024 NIH Wednesday Afternoon Lecture Series<br>'How Neuromorphic Computing Can Help Us Understand the Brain'",
     "GA": "2025 Georgia Tech CRNCH Summit<br>'A Probabilistic Future for Neuromorphic Computing'",
     "TN": "2022 ICONS Conference",
     "NY": "2019 NICE Conference<br>'Mosaics'",
