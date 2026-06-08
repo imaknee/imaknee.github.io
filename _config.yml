@@ -121,3 +121,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Analytics Configuration
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-EENYFTQ1SE" # Replace with your actual G- ID
