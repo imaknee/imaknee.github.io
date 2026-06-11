@@ -124,6 +124,6 @@ tag_archive:
 
 # Analytics Configuration
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: "G-EENYFTQ1SE" # Replace with your actual G- ID
