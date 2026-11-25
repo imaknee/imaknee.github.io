@@ -9,6 +9,16 @@ tags:
   - neuromorphic
 ---
 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async src="https://jsdelivr.net"></script>
+
+
 I don't have anything clever to say about Navier Stokes or the Riemann Hypothesis. To me, the former is a hard for simulation computational physics problem (I don't care about the math stability / instability) and the latter is one of those "I've read about it on Wikipedia when glancing over the Millennium Prize problems, shrugged, and moved on." I know some mathematicians want to spend their lives chasing prime numbers, I know they generally don't ask for a lot of money to do that, and so that's all fine by me. We all get our kicks somewhere. 
 
 But I do [have a paper on Strassen multiplication](https://arxiv.org/pdf/2006.14652), which apparently got an [AI-assisted lower bound yesterday](https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026), and I have spent time thinking about that problem. I've also had reviewers tell me "you should come up with something Strassen-like if you want to make neuromorphic interesting," which was both ironic (since I have a neuromorphic-like Strassen algorithm) and kind of a high bar for feedback for a paper.
