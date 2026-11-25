@@ -9,15 +9,6 @@ tags:
   - neuromorphic
 ---
 
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async src="https://jsdelivr.net"></script>
-
 
 I don't have anything clever to say about Navier Stokes or the Riemann Hypothesis. To me, the former is a hard for simulation computational physics problem (I don't care about the math stability / instability) and the latter is one of those "I've read about it on Wikipedia when glancing over the Millennium Prize problems, shrugged, and moved on." I know some mathematicians want to spend their lives chasing prime numbers, I know they generally don't ask for a lot of money to do that, and so that's all fine by me. We all get our kicks somewhere. 
 
